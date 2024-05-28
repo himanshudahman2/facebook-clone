@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font-family: SFProDisplay-Regular,Arial, Helvetica, sans-serif;
+}
+
+.main {
+    height: 720px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.first-div {
+    height: 349px;
+    width: 400px;
+}
+
+.first-inner-div {
+    height: 259px;
+    width: 400px;
+}
+
+#logo {
+    height: 282px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.first-div h2 {
+    color: #1c1e21;
+}
+
+
+.second-div {
+    height: 349px;
+    width: 396px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* border:hover {
+    border: 1px solid #0867ffbc;
+} */
+
+.email {
+    height: 50px;
+    width: 368px;
+    /* color: #ffffff; */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.password {
+    height: 50px;
+    width: 368px;
+    /* color: #ffffff; */
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.login {
+    height: 50px;
+    width: 368px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0866ff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.forget {
+    height: 50px;
+    width: 368px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+.hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.new {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 88px;
+    background-color: #42b72a;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.para {
+    height: 30px;
+    width: 396px;
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.para a {
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* footer section */
+
+.footer {
+    height: 157px;
+    width: 100%;
+}
+
+.top-foot {
+    height: 30px;
+    width: 852px;
+}
+
+.top-foot ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    
+}
+
+.top-foot a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #8a8d91;
+    margin-right: 10px;
+}
+
+.bottom-foot {
+    height:57px;
+    width: 850px;
+}
+
+.bottom-foot ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.bottom-foot a {
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.copyright {
+    height: 15px;
+    color: #8a8d91;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
